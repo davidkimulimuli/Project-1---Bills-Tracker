@@ -1,0 +1,80 @@
+/* Basic styling for layout and readability */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+/* Default button spacing */
+button {
+    margin-left: 5px;
+}
+
+/* Highlight invalid fields during JS validation */
+.invalid {
+    border: 2px solid red;
+}
+
+/* Add button (blue) */
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Clear all button (black with white text) */
+#clearAll {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Mark as Paid button (green) */
+.action-paid {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Delete button (red) */
+.action-delete {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Status badges */
+.paid {
+    background-color: #c8f7c5;
+    color: #2e7d32;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.unpaid {
+    background-color: #f8d7da;
+    color: #c0392b;
+    padding: 3px 8px;
+    border-radius: 5px;
+}

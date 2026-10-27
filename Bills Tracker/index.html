@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bills Tracker</title>
+
+    <!-- Connect external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h2>Bills Tracker</h2>
+
+    <!-- FORM SECTION -->
+    <!-- HTML validation ensures fields cannot be empty -->
+    <form id="billForm">
+
+        <!-- Bill name input -->
+        <label for="billName">Bill:</label>
+        <input type="text" id="billName" required>
+
+        <!-- Amount name input -->
+        <label for="amountName">Amount (€):</label>
+        <input type="number" id="amountName" step="0.01" required>
+
+        <!-- Add button -->
+        <button type="submit">Add</button>
+    </form>
+
+    <!-- Clear all button -->
+    <button id="clearAll">Clear all</button>
+
+    <!-- Table for displaying bills -->
+    <table id="billTable">
+        <tr>
+            <th>Bill</th>
+            <th>Amount (€)</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <!-- Total amount display -->
+    <h3>Total: <span id="totalAmount">0.00</span> €</h3>
+
+    <!-- Connect external JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
