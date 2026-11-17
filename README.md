@@ -133,6 +133,8 @@ In Version 2, the challenging part was working with APIs. I learned how to use f
 
 I also learned that it is not enough to simply copy and paste API keys from the API key providers because every API service provider has unique configuration rules. One needs to read the documentation and see excactly how the API key is implemented in the code. For instance, my REST countries API was not allowing traffic so I had to search and find out why and how to allow traffic.
 
+My self-assessed project grade is 10/10 as I have fulfiled all the required deliverables for project 2a
+
 
 ## Sources and acknowledgements
 
