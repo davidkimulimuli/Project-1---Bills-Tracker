@@ -20,12 +20,62 @@
         <input type="text" id="billName" required>
 
         <!-- Amount name input -->
-        <label for="amountName">Amount (€):</label>
+        <label for="amountName">Amount:</label>
         <input type="number" id="amountName" step="0.01" required>
+
+        <!-- NEW FEATURE - COUNTRY DROPDOWN FOR REST COUNTRIES API -->
+        <label for="countrySelect">Country:</label>
+        <select id="countrySelect" required>
+            <option value="">Select a Country</option>
+        </select>
 
         <!-- Add button -->
         <button type="submit">Add</button>
     </form>
+
+    <!-- NEW FEATURE - COUNTRY INFORMATION SECTION -->
+    <div id="countryInfo">
+
+        <h3>Country Information</h3>
+
+        <img
+            id="countryFlag"
+            src=""
+            alt="Country Flag"
+            width="100"
+        >
+
+        <p>
+            <strong>Country:</strong>
+            <span id="countryName"></span>
+        </p>
+
+        <p>
+            <strong>Capital:</strong>
+            <span id="countryCapital"></span>
+        </p>
+
+        <p>
+            <strong>Currency:</strong>
+            <span id="countryCurrency"></span>
+        </p>
+
+    </div>
+
+    <!-- NEW FEATURE - EXCHANGE RATE INFORMATION SECTION -->
+    <div id="exchangeInfo">
+
+        <h3>Exchange Rate Information</h3>
+
+        <p>
+            1
+            <span id="sourceCurrency">-</span>
+            =
+            <span id="exchangeRate">-</span>
+            EUR
+        </p>
+
+    </div>
 
     <!-- Clear all button -->
     <button id="clearAll">Clear all</button>
@@ -34,7 +84,20 @@
     <table id="billTable">
         <tr>
             <th>Bill</th>
-            <th>Amount (€)</th>
+
+            <!-- NEW COLUMN - COUNTRY -->
+            <th>Country</th>
+
+            <!-- NEW COLUMN - CURRENCY -->
+            <th>Currency</th>
+
+            <!-- NEW COLUMN - ORIGINAL AMOUNT -->
+            <th>Original Amount</th>
+
+            <!-- NEW COLUMN - CONVERTED AMOUNT -->
+            <th>Converted Amount (€)</th>
+
+            
             <th>Date</th>
             <th>Status</th>
             <th>Action</th>
