@@ -47,7 +47,7 @@ The main aim of these new features in version 2 was to make the Bills Tracker ap
 
 - **Published application:** [https://davidkimulimuli.github.io/Project-1---Bills-Tracker/]
 - **GitHub repository:** [https://github.com/davidkimulimuli/Project-1---Bills-Tracker]
-- **Project video presentation:** [https://teams.cloud.microsoft/l/meetingrecap?driveId=b%21dLmCPBbICUycnvt0bPP8WfEgzFrzr-JMsyZHUo1z1J8kje3tEViYSYr58DyrTGP6&driveItemId=015TMGDLQXQ3SZJLA2AFCKALVB4C5FWZSF&sitePath=https%3A%2F%2Flaureauas-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fdam00022_laurea_fi%2FIQAXhuWUrBoBRKAuoeC6W2ZFAfc7muz5tel7k2h6R71BMyA&fileUrl=https%3A%2F%2Flaureauas-my.sharepoint.com%2Fpersonal%2Fdam00022_laurea_fi%2FDocuments%2FTallenteet%2FWeb+Development+Frontend+Project+1-20261027_163249-Meeting+Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00800000000B2F8FD931C66DD0100000000000000001000000017BEB13122EC684390F85E8CBC8C3824&threadId=19%3Ameeting_NjI3MDkwNWYtMjdlMy00ZDNjLWIyZDktY2U1NWFhNWNhZDhi%40thread.v2&organizerId=e263a8a0-b8a8-4e6b-a6d8-f7ce67744c3d&tenantId=f0b9e9d7-8d66-4b16-9c1c-6b07c4796280&callId=62a54c3e-12eb-4d1a-ad0f-0691a84b4af5&threadType=Meeting&meetingType=Scheduled&subType=RecapSharingLink_RecapCore&recapType=RecordingAndTranscript]
+- **Project video presentation:** [https://laureauas-my.sharepoint.com/:v:/r/personal/dam00022_laurea_fi/Documents/Tallenteet/Project%202a%20-%20Web%20Development%20Front%20end-20261117_211519-Meeting%20Recording.mp4?d=w6052b9321cdf4d54b9e32a5fb396a4cf&csf=1&web=1&e=Jz1m2K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
 ## About the application
 
